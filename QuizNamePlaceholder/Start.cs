@@ -1,3 +1,4 @@
+using QuizNamePlaceholder.DebugTests;
 using QuizNamePlaceholder.Screens;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,13 @@ namespace QuizNamePlaceholder
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            
+            if (DebugManager.DEBUG_MODE)
+            {
+                DebugManager.RunTests();
+                return;
+            }
+                
             Application.Run(new TitleScreen());
         }
     }
