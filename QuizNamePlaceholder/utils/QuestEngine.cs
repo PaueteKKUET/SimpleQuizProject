@@ -10,6 +10,8 @@ namespace QuizNamePlaceholder.utils
 {
     class QuestEngine
     {
+        public const string DEFAULT_PATH = "./Data/questions.json"; 
+
         int Seed { get; }
         private Random Generator;
         private List<Question> Questions;
@@ -75,11 +77,11 @@ namespace QuizNamePlaceholder.utils
 
     public class Question
     {
-        private const char CORRECT_ANSWER_CHAR = '@';
-        private const int MAX_CORRECT_ANSWERS = 4;
+        public const char CORRECT_ANSWER_CHAR = '@';
+        public const int MAX_ANSWERS = 4;
 
         public string Title { get; }
-        private string[] Answers;
+        public string[] Answers;
 
         public Question(string title, string[] answers)
         {
@@ -93,9 +95,9 @@ namespace QuizNamePlaceholder.utils
             }
 
             //if answers count is not between 2 and MAX_CORRECT_ANSWERS, throw an exception
-            if (answers.Length < 2 || answers.Length > MAX_CORRECT_ANSWERS)
+            if (Answers.Length < 2 || Answers.Length > MAX_ANSWERS)
             {
-                throw new ArgumentException("Answers count must be between 2 and " + MAX_CORRECT_ANSWERS);
+                throw new ArgumentException("Answers count must be between 2 and " + MAX_ANSWERS);
             }
 
         }

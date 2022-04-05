@@ -12,7 +12,7 @@ namespace QuizNamePlaceholder.Screens
 {
     public partial class TitleScreen : Form
     {
-        private const string questionFilePath = @".\Data\questions.json";
+        private const string questionFilePath = QuestEngine.DEFAULT_PATH;
 
         private QuestEngine questEngine;
         public TitleScreen()
