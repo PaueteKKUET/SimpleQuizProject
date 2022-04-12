@@ -30,13 +30,13 @@ namespace QuizNamePlaceholder.Screens
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.lbl_aciertos = new System.Windows.Forms.Label();
-            this.lbl_errores = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lbl_errores = new System.Windows.Forms.Label();
+            this.lbl_aciertos = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.lbl_resultados = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -56,48 +56,17 @@ namespace QuizNamePlaceholder.Screens
             this.panel1.Size = new System.Drawing.Size(609, 366);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // button2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(173)))), ((int)(((byte)(120)))));
-            this.panel2.Controls.Add(this.lbl_resultados);
-            this.panel2.Location = new System.Drawing.Point(12, 12);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(582, 93);
-            this.panel2.TabIndex = 0;
-            // 
-            // lbl_aciertos
-            // 
-            this.lbl_aciertos.AutoSize = true;
-            this.lbl_aciertos.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_aciertos.Location = new System.Drawing.Point(175, 164);
-            this.lbl_aciertos.Name = "lbl_aciertos";
-            this.lbl_aciertos.Size = new System.Drawing.Size(99, 22);
-            this.lbl_aciertos.TabIndex = 1;
-            this.lbl_aciertos.Text = "Aciertos: ";
-            // 
-            // lbl_errores
-            // 
-            this.lbl_errores.AutoSize = true;
-            this.lbl_errores.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_errores.Location = new System.Drawing.Point(175, 205);
-            this.lbl_errores.Name = "lbl_errores";
-            this.lbl_errores.Size = new System.Drawing.Size(89, 22);
-            this.lbl_errores.TabIndex = 2;
-            this.lbl_errores.Text = "Errores: ";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(280, 163);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(117, 23);
-            this.textBox1.TabIndex = 3;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(280, 204);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(117, 23);
-            this.textBox2.TabIndex = 4;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(133)))), ((int)(((byte)(92)))));
+            this.button2.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(216, 309);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(133, 44);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Salir del juego";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -110,16 +79,48 @@ namespace QuizNamePlaceholder.Screens
             this.button1.Text = "Jugar otra vez";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // textBox2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(133)))), ((int)(((byte)(92)))));
-            this.button2.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(216, 309);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(133, 44);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Salir del juego";
-            this.button2.UseVisualStyleBackColor = false;
+            this.textBox2.Location = new System.Drawing.Point(280, 204);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(117, 23);
+            this.textBox2.TabIndex = 4;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(280, 163);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(117, 23);
+            this.textBox1.TabIndex = 3;
+            // 
+            // lbl_errores
+            // 
+            this.lbl_errores.AutoSize = true;
+            this.lbl_errores.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_errores.Location = new System.Drawing.Point(175, 205);
+            this.lbl_errores.Name = "lbl_errores";
+            this.lbl_errores.Size = new System.Drawing.Size(89, 22);
+            this.lbl_errores.TabIndex = 2;
+            this.lbl_errores.Text = "Errores: ";
+            // 
+            // lbl_aciertos
+            // 
+            this.lbl_aciertos.AutoSize = true;
+            this.lbl_aciertos.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_aciertos.Location = new System.Drawing.Point(175, 164);
+            this.lbl_aciertos.Name = "lbl_aciertos";
+            this.lbl_aciertos.Size = new System.Drawing.Size(99, 22);
+            this.lbl_aciertos.TabIndex = 1;
+            this.lbl_aciertos.Text = "Aciertos: ";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(173)))), ((int)(((byte)(120)))));
+            this.panel2.Controls.Add(this.lbl_resultados);
+            this.panel2.Location = new System.Drawing.Point(12, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(582, 93);
+            this.panel2.TabIndex = 0;
             // 
             // lbl_resultados
             // 

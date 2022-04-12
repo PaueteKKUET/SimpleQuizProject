@@ -14,5 +14,28 @@ namespace QuizNamePlaceholder.Screens
         {
             InitializeComponent();
         }
+
+        private void btn_jugar_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(lbl_usuario.Text))
+            {
+                MessageBox.Show("Alerta", "Debes introducir un nombre de usuario para jugar");
+            }
+            else {
+                PantallaCarga pc = new PantallaCarga();
+                this.Hide();
+                pc.Show();
+            }
+        }
+
+        private void txt_usuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_usuario_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
