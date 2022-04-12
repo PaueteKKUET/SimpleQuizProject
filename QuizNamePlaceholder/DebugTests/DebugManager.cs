@@ -9,7 +9,7 @@ namespace QuizNamePlaceholder.DebugTests
     internal class DebugManager
     {
 
-        public const bool DEBUG_MODE = true;
+        public const bool DEBUG_MODE = false;
 
         public static void RunTests()
         {
