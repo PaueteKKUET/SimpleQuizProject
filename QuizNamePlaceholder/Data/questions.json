@@ -25,5 +25,131 @@
       "@@Señor Stark, no me encuentro bien..."
     ],
     "Title": "¿De qué color era el caballo blanco de Santiago?"
+  },
+  {
+    "Answers": [
+      "Si",
+      "Si",
+      "@No",
+      "Si"
+    ],
+    "Title": "¿Murcia existe?"
+  },
+  {
+    "Answers": [
+      "Club of Seattle",
+      "@Club del 27",
+      "Club del 32",
+      "Club Nirvana"
+    ],
+    "Title": "¿A qué club pertenece Kurt Cobain?"
+  },
+  {
+    "Answers": [
+      "Spice Girls",
+      "@Abba",
+      "Mecano",
+      "Destiny’s Child"
+    ],
+    "Title": "¿En la obra de qué grupo musical está basada la película/musical Mamma Mia?"
+  },
+  {
+    "Answers": [
+      "Pau Salanova",
+      "@Manel Navarro",
+      "Manuel Navarro",
+      "Pedro Sanchez"
+    ],
+    "Title": "¿Cómo se llamaba el que representó a España en Eurovisión 2017?"
+  },
+  {
+    "Answers": [
+      "Amazonas",
+      "Miño",
+      "@Danubio",
+      "Volga"
+    ],
+    "Title": "¿Qué río europeo fluye a través de 10 países diferentes?"
+  },
+  {
+    "Answers": [
+      "Desierto del Sahara",
+      "El valle de la muerte",
+      "@Desierto de Lut",
+      "Desierto de Gobi"
+    ],
+    "Title": "¿Cuál es el desierto más caluroso de la Tierra?"
+  },
+  {
+    "Answers": [
+      "@Fosa de las Marianas",
+      "Fosa de Kermadec",
+      "Fosa de las Filipinas",
+      "Fosa de Tonga"
+    ],
+    "Title": "¿Cuál es la fosa marina más grande?"
+  },
+  {
+    "Answers": [
+      "@Asia",
+      "Oceanía",
+      "América",
+      "África"
+    ],
+    "Title": "¿En qué continente está ubicado Sri Lanka?"
+  },
+  {
+    "Answers": [
+      "San Juan, San Felipe y San Marcos",
+      "@La Pinta, La Niña y Santa Maria",
+      "La Pinta, San Felipe y Santa Isabel",
+      "La Niña, San Felipe y Santa Maria"
+    ],
+    "Title": "¿Cómo se llamaban los 3 navíos de Cristóbal Colón?"
+  },
+  {
+    "Answers": [
+      "1792",
+      "1484",
+      "@1492",
+      "1513"
+    ],
+    "Title": "¿En qué año se descubrió América?"
+  },
+  {
+    "Answers": [
+      "100 años",
+      "93 años",
+      "97 años",
+      "@116 años"
+    ],
+    "Title": "¿Cuánto duró la guerra de los 100 años?"
+  },
+  {
+    "Answers": [
+      "Fernando VII",
+      "@Felipe IV",
+      "Carlos V",
+      "Alfonso XII"
+    ],
+    "Title": "¿Quién era el Rey Planeta?"
+  },
+  {
+    "Answers": [
+      "Zelda",
+      "@Link",
+      "Donkey Kong",
+      "Torrente"
+    ],
+    "Title": "¿Quién es el protagonista de la saga The Legend of Zelda?"
+  },
+  {
+    "Answers": [
+      "Matarlo",
+      "Noquear",
+      "Hacer un Fus Ro Dah",
+      "@Ponerle un cubo en la cabeza"
+    ],
+    "Title": "¿En el juego The Elder Scrolls Skyrim, cual es la mejor manera para robar a las personas?"
   }
 ]
