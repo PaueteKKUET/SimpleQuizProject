@@ -56,6 +56,7 @@ namespace QuizNamePlaceholder.Screens
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(243)))), ((int)(((byte)(178)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.testButton);
             this.Controls.Add(this.testLabel);

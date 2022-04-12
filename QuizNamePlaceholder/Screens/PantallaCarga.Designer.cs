@@ -66,7 +66,8 @@ namespace QuizNamePlaceholder.Screens
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(615, 242);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(226)))), ((int)(((byte)(178)))));
+            this.ClientSize = new System.Drawing.Size(595, 251);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label1);
             this.Name = "PantallaCarga";
