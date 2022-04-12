@@ -151,5 +151,140 @@
       "@Ponerle un cubo en la cabeza"
     ],
     "Title": "¿En el juego The Elder Scrolls Skyrim, cual es la mejor manera para robar a las personas?"
+  },
+  {
+    "Answers": [
+      "@Si",
+      "No",
+      "No existen calaveras en el Halo",
+      "Todas son incorrectas"
+    ],
+    "Title": "¿En la saga Halo, podemos coleccionar calaveras?"
+  },
+  {
+    "Answers": [
+      "Mudkip, Torchick y Treecko",
+      "Squirtle, Charmander y Bulbasaur",
+      "Totodile, Cyndaquil y Chikorita",
+      "@Piplup, Chimchar y Turtwig"
+    ],
+    "Title": "En Pokémon Diamante, ¿Cuáles son los starters?"
+  },
+  {
+    "Answers": [
+      "Ashe",
+      "@Sova",
+      "Miss Fortune",
+      "Maestro Yi"
+    ],
+    "Title": "¿Cual de estos no es un personaje de League of Legends?"
+  },
+  {
+    "Answers": [
+      "No",
+      "@Si",
+      "Imposible",
+      "@Si x2"
+    ],
+    "Title": "¿Se puede instalar Windows 10/11 en móvil sin emuladores?"
+  },
+  {
+    "Answers": [
+      "2 GB",
+      "10 GB",
+      "@15 GB",
+      "5 GB"
+    ],
+    "Title": "¿Cuál es el almacenamiento gratuito máximo de Google Drive?"
+  },
+  {
+    "Answers": [
+      "@Falso",
+      "Verdadero",
+      "Verdedero",
+      "Fals0"
+    ],
+    "Title": "La configuración por defecto de un portátil no pierde frames si jugamos con o sin cargador"
+  },
+  {
+    "Answers": [
+      "Verdadero",
+      "@Falso",
+      "Fаlso",
+      "Verdaдero"
+    ],
+    "Title": "SI uso modo incógnito de un navegador nadie podrá ver mi historial"
+  },
+  {
+    "Answers": [
+      "Zeus",
+      "Hades",
+      "@Jupiter",
+      "Eros"
+    ],
+    "Title": "Cual de estos NO es un dios griego"
+  },
+  {
+    "Answers": [
+      "Átomo",
+      "Particula",
+      "@Célula",
+      "Tejido"
+    ],
+    "Title": "¿Cuál es el componente mínimo que forma a los seres humanos?"
+  },
+  {
+    "Answers": [
+      "Thomas Edison",
+      "Albert Einstein",
+      "@Nikola Tesla",
+      "Mario Espasa"
+    ],
+    "Title": "¿Quién inventó el control remoto?"
+  },
+  {
+    "Answers": [
+      "@Creta",
+      "Esparta",
+      "Atenas",
+      "Argos"
+    ],
+    "Title": "¿Dónde se encontraba el laberinto del minotauro de la mitología griega?"
+  },
+  {
+    "Answers": [
+      "10",
+      "@12",
+      "11",
+      "7"
+    ],
+    "Title": "¿Cuántos trabajos tuvo que desempeñar Hércules?"
+  },
+  {
+    "Answers": [
+      "Frozen",
+      "@Blancanieves",
+      "Cenicienta",
+      "La bella durmiente"
+    ],
+    "Title": "¿Cuál es la primera película de las princesas Disney?"
+  },
+  {
+    "Answers": [
+      "@Mito de la caverna",
+      "Las tres partes del alma",
+      "La justicia es equilibrio",
+      "Los sentidos no reflejan la realidad ni permiten conocerla"
+    ],
+    "Title": "¿Cuáles de estas ideas o mitos se acerca más a la película de Matrix?"
+  },
+  {
+    "Answers": [
+      "Cars",
+      "@Toy Story",
+      "Monster Inc.",
+      "Wall-E"
+    ],
+    "Title": "¿Cuál de estas películas salió primero?"
   }
 ]
