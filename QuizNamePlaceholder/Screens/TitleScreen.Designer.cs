@@ -36,7 +36,7 @@ namespace QuizNamePlaceholder.Screens
             // testLabel
             // 
             this.testLabel.AutoSize = true;
-            this.testLabel.Location = new System.Drawing.Point(137, 95);
+            this.testLabel.Location = new System.Drawing.Point(191, 81);
             this.testLabel.Name = "testLabel";
             this.testLabel.Size = new System.Drawing.Size(32, 15);
             this.testLabel.TabIndex = 1;
@@ -44,9 +44,9 @@ namespace QuizNamePlaceholder.Screens
             // 
             // testButton
             // 
-            this.testButton.Location = new System.Drawing.Point(125, 235);
+            this.testButton.Location = new System.Drawing.Point(79, 147);
             this.testButton.Name = "testButton";
-            this.testButton.Size = new System.Drawing.Size(131, 48);
+            this.testButton.Size = new System.Drawing.Size(144, 57);
             this.testButton.TabIndex = 2;
             this.testButton.Text = "Siguiente pregunta :D";
             this.testButton.UseVisualStyleBackColor = true;
@@ -56,6 +56,7 @@ namespace QuizNamePlaceholder.Screens
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(244)))), ((int)(((byte)(172)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.testButton);
             this.Controls.Add(this.testLabel);
