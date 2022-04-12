@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Media;
 
 namespace QuizNamePlaceholder.Screens
 {
@@ -12,6 +13,9 @@ namespace QuizNamePlaceholder.Screens
     {
         public InicioSesion()
         {
+            SoundPlayer s = new SoundPlayer();
+            s.SoundLocation = @"Data\MusicaFinal\intro.wav";
+            s.PlayLooping();
             InitializeComponent();
         }
 
@@ -34,6 +38,11 @@ namespace QuizNamePlaceholder.Screens
         }
 
         private void lbl_usuario_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

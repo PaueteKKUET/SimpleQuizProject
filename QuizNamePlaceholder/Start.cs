@@ -26,7 +26,7 @@ namespace QuizNamePlaceholder
                 return;
             }
                 
-            Application.Run(new PantallaCarga());
+            Application.Run(new InicioSesion());
         }
     }
 }

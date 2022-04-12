@@ -31,8 +31,8 @@ namespace QuizNamePlaceholder.Screens
         {
             this.btn_jugar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lbl_usuario = new System.Windows.Forms.Label();
             this.txt_usuario = new System.Windows.Forms.TextBox();
+            this.lbl_usuario = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +59,16 @@ namespace QuizNamePlaceholder.Screens
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(447, 277);
             this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // txt_usuario
+            // 
+            this.txt_usuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_usuario.Location = new System.Drawing.Point(223, 138);
+            this.txt_usuario.Name = "txt_usuario";
+            this.txt_usuario.Size = new System.Drawing.Size(190, 23);
+            this.txt_usuario.TabIndex = 3;
+            this.txt_usuario.TextChanged += new System.EventHandler(this.txt_usuario_TextChanged);
             // 
             // lbl_usuario
             // 
@@ -71,15 +81,6 @@ namespace QuizNamePlaceholder.Screens
             this.lbl_usuario.TabIndex = 1;
             this.lbl_usuario.Text = "Nombre de usuario:";
             this.lbl_usuario.Click += new System.EventHandler(this.lbl_usuario_Click);
-            // 
-            // txt_usuario
-            // 
-            this.txt_usuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_usuario.Location = new System.Drawing.Point(223, 138);
-            this.txt_usuario.Name = "txt_usuario";
-            this.txt_usuario.Size = new System.Drawing.Size(190, 23);
-            this.txt_usuario.TabIndex = 3;
-            this.txt_usuario.TextChanged += new System.EventHandler(this.txt_usuario_TextChanged);
             // 
             // InicioSesion
             // 
