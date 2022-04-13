@@ -30,14 +30,14 @@ namespace QuizNamePlaceholder.Screens
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.nErrores = new System.Windows.Forms.Label();
+            this.nAciertos = new System.Windows.Forms.Label();
             this.exitButton = new System.Windows.Forms.Button();
             this.playAgainButton = new System.Windows.Forms.Button();
             this.lbl_errores = new System.Windows.Forms.Label();
             this.lbl_aciertos = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbl_resultados = new System.Windows.Forms.Label();
-            this.nAciertos = new System.Windows.Forms.Label();
-            this.nErrores = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -55,6 +55,24 @@ namespace QuizNamePlaceholder.Screens
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(609, 366);
             this.panel1.TabIndex = 0;
+            // 
+            // nErrores
+            // 
+            this.nErrores.AutoSize = true;
+            this.nErrores.Location = new System.Drawing.Point(285, 212);
+            this.nErrores.Name = "nErrores";
+            this.nErrores.Size = new System.Drawing.Size(46, 15);
+            this.nErrores.TabIndex = 8;
+            this.nErrores.Text = "UwUn\'t";
+            // 
+            // nAciertos
+            // 
+            this.nAciertos.AutoSize = true;
+            this.nAciertos.Location = new System.Drawing.Point(285, 171);
+            this.nAciertos.Name = "nAciertos";
+            this.nAciertos.Size = new System.Drawing.Size(32, 15);
+            this.nAciertos.TabIndex = 7;
+            this.nAciertos.Text = "UwU";
             // 
             // exitButton
             // 
@@ -120,24 +138,6 @@ namespace QuizNamePlaceholder.Screens
             this.lbl_resultados.TabIndex = 0;
             this.lbl_resultados.Text = "RESULTADOS";
             // 
-            // nAciertos
-            // 
-            this.nAciertos.AutoSize = true;
-            this.nAciertos.Location = new System.Drawing.Point(285, 171);
-            this.nAciertos.Name = "nAciertos";
-            this.nAciertos.Size = new System.Drawing.Size(32, 15);
-            this.nAciertos.TabIndex = 7;
-            this.nAciertos.Text = "UwU";
-            // 
-            // nErrores
-            // 
-            this.nErrores.AutoSize = true;
-            this.nErrores.Location = new System.Drawing.Point(285, 212);
-            this.nErrores.Name = "nErrores";
-            this.nErrores.Size = new System.Drawing.Size(46, 15);
-            this.nErrores.TabIndex = 8;
-            this.nErrores.Text = "UwUn\'t";
-            // 
             // PantallaFinal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -147,7 +147,7 @@ namespace QuizNamePlaceholder.Screens
             this.Controls.Add(this.panel1);
             this.Name = "PantallaFinal";
             this.Text = "PantallaFinal";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TitleScreen_OnFormClosed);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.PantallaFinal_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

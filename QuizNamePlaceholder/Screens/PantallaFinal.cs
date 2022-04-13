@@ -30,13 +30,7 @@ namespace QuizNamePlaceholder.Screens
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Cerrando...");
             Application.Exit();
-        }
-
-        private void TitleScreen_OnFormClosed(object sender, EventArgs e)
-        {
-            parent.Close();
         }
 
         private void playAgainButton_Click(object sender, EventArgs e)
@@ -44,6 +38,11 @@ namespace QuizNamePlaceholder.Screens
             this.Hide();
             TitleScreen juego = new TitleScreen(this);
             juego.Show();
+        }
+
+        private void PantallaFinal_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            parent.Close();
         }
     }
 }
