@@ -126,7 +126,7 @@ namespace QuizNamePlaceholder.Screens
             this.ans4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ans4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(243)))), ((int)(((byte)(178)))));
+            this.ans4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(133)))), ((int)(((byte)(92)))));
             this.ans4.Location = new System.Drawing.Point(230, 83);
             this.ans4.Name = "ans4";
             this.ans4.Size = new System.Drawing.Size(221, 74);
@@ -140,7 +140,7 @@ namespace QuizNamePlaceholder.Screens
             this.ans3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ans3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(243)))), ((int)(((byte)(178)))));
+            this.ans3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(204)))), ((int)(((byte)(115)))));
             this.ans3.Location = new System.Drawing.Point(3, 83);
             this.ans3.Name = "ans3";
             this.ans3.Size = new System.Drawing.Size(221, 74);
@@ -154,7 +154,7 @@ namespace QuizNamePlaceholder.Screens
             this.ans2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ans2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(243)))), ((int)(((byte)(178)))));
+            this.ans2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(195)))), ((int)(((byte)(85)))));
             this.ans2.Location = new System.Drawing.Point(230, 3);
             this.ans2.Name = "ans2";
             this.ans2.Size = new System.Drawing.Size(221, 74);
@@ -168,7 +168,8 @@ namespace QuizNamePlaceholder.Screens
             this.ans1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ans1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(243)))), ((int)(((byte)(178)))));
+            this.ans1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(187)))), ((int)(((byte)(120)))));
+            this.ans1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.ans1.Location = new System.Drawing.Point(3, 3);
             this.ans1.Name = "ans1";
             this.ans1.Size = new System.Drawing.Size(221, 74);

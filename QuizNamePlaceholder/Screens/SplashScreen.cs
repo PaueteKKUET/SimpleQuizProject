@@ -17,5 +17,10 @@ namespace QuizNamePlaceholder.Screens
             ins.Show();
             timer1.Enabled = false;
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
