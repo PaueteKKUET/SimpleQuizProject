@@ -29,15 +29,15 @@ namespace QuizNamePlaceholder.Screens
         /// </summary>
         private void InitializeComponent()
         {
-            this.testLabel = new System.Windows.Forms.Label();
+            this.questionLabel = new System.Windows.Forms.Label();
             this.testButton = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.ans4 = new System.Windows.Forms.Button();
+            this.ans3 = new System.Windows.Forms.Button();
+            this.ans2 = new System.Windows.Forms.Button();
+            this.ans1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -46,15 +46,15 @@ namespace QuizNamePlaceholder.Screens
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // testLabel
+            // questionLabel
             // 
-            this.testLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.testLabel.AutoSize = true;
-            this.testLabel.Location = new System.Drawing.Point(208, 30);
-            this.testLabel.Name = "testLabel";
-            this.testLabel.Size = new System.Drawing.Size(32, 15);
-            this.testLabel.TabIndex = 1;
-            this.testLabel.Text = "UwU";
+            this.questionLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.questionLabel.AutoSize = true;
+            this.questionLabel.Location = new System.Drawing.Point(3, 33);
+            this.questionLabel.Name = "questionLabel";
+            this.questionLabel.Size = new System.Drawing.Size(32, 15);
+            this.questionLabel.TabIndex = 1;
+            this.questionLabel.Text = "UwU";
             // 
             // testButton
             // 
@@ -92,7 +92,7 @@ namespace QuizNamePlaceholder.Screens
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.Controls.Add(this.testLabel);
+            this.panel1.Controls.Add(this.questionLabel);
             this.panel1.Controls.Add(this.testButton);
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
@@ -107,10 +107,10 @@ namespace QuizNamePlaceholder.Screens
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.button4, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button3, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button2, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.ans4, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.ans3, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.ans2, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.ans1, 0, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
@@ -119,53 +119,61 @@ namespace QuizNamePlaceholder.Screens
             this.tableLayoutPanel1.Size = new System.Drawing.Size(454, 160);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // button4
+            // ans4
             // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.ans4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.Location = new System.Drawing.Point(230, 83);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(221, 74);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "D";
-            this.button4.UseVisualStyleBackColor = true;
+            this.ans4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(243)))), ((int)(((byte)(178)))));
+            this.ans4.Location = new System.Drawing.Point(230, 83);
+            this.ans4.Name = "ans4";
+            this.ans4.Size = new System.Drawing.Size(221, 74);
+            this.ans4.TabIndex = 3;
+            this.ans4.Text = "D";
+            this.ans4.UseVisualStyleBackColor = false;
+            this.ans4.Click += new System.EventHandler(this.ans4_Click);
             // 
-            // button3
+            // ans3
             // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.ans3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.Location = new System.Drawing.Point(3, 83);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(221, 74);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "C";
-            this.button3.UseVisualStyleBackColor = true;
+            this.ans3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(243)))), ((int)(((byte)(178)))));
+            this.ans3.Location = new System.Drawing.Point(3, 83);
+            this.ans3.Name = "ans3";
+            this.ans3.Size = new System.Drawing.Size(221, 74);
+            this.ans3.TabIndex = 2;
+            this.ans3.Text = "C";
+            this.ans3.UseVisualStyleBackColor = false;
+            this.ans3.Click += new System.EventHandler(this.ans3_Click);
             // 
-            // button2
+            // ans2
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.ans2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(230, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(221, 74);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "B";
-            this.button2.UseVisualStyleBackColor = true;
+            this.ans2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(243)))), ((int)(((byte)(178)))));
+            this.ans2.Location = new System.Drawing.Point(230, 3);
+            this.ans2.Name = "ans2";
+            this.ans2.Size = new System.Drawing.Size(221, 74);
+            this.ans2.TabIndex = 1;
+            this.ans2.Text = "B";
+            this.ans2.UseVisualStyleBackColor = false;
+            this.ans2.Click += new System.EventHandler(this.ans2_Click);
             // 
-            // button1
+            // ans1
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.ans1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(221, 74);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "A";
-            this.button1.UseVisualStyleBackColor = true;
+            this.ans1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(243)))), ((int)(((byte)(178)))));
+            this.ans1.Location = new System.Drawing.Point(3, 3);
+            this.ans1.Name = "ans1";
+            this.ans1.Size = new System.Drawing.Size(221, 74);
+            this.ans1.TabIndex = 0;
+            this.ans1.Text = "A";
+            this.ans1.UseVisualStyleBackColor = false;
+            this.ans1.Click += new System.EventHandler(this.ans1_Click);
             // 
             // TitleScreen
             // 
@@ -189,14 +197,14 @@ namespace QuizNamePlaceholder.Screens
         }
 
         #endregion
-        private System.Windows.Forms.Label testLabel;
+        private System.Windows.Forms.Label questionLabel;
         private System.Windows.Forms.Button testButton;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button ans1;
+        private System.Windows.Forms.Button ans2;
+        private System.Windows.Forms.Button ans3;
+        private System.Windows.Forms.Button ans4;
     }
 }

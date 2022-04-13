@@ -70,18 +70,18 @@ namespace QuizNamePlaceholder.utils
         //returns if there are more questions
         public bool HasNextQuestion()
         {
-            return Index < Questions.Count;
+            return Index < Questions.Count && Index < 10;
         }
 
     }
 
     public class Question
     {
-        public const char CORRECT_ANSWER_CHAR = '@';
+        public const char CORRECT_ANSWER_CHAR = '#';
         public const int MAX_ANSWERS = 4;
 
         public string Title { get; }
-        public string[] Answers;
+        private string[] Answers;
 
         public Question(string title, string[] answers)
         {
@@ -108,7 +108,7 @@ namespace QuizNamePlaceholder.utils
         {
             foreach (string a in Answers)
             {
-                if (a.StartsWith(CORRECT_ANSWER_CHAR) && a.Substring(1) == answer)
+                if (a.StartsWith(CORRECT_ANSWER_CHAR) && a.EndsWith(answer))
                 {
                     return true;
                 }
@@ -119,14 +119,17 @@ namespace QuizNamePlaceholder.utils
         //Returns the Answers array, removing CORRECT_ANSWER_CHAR from the beginning of each string, if present.
         public string[] GetAnswers()
         {
+            string[] formattedAnswers = new string[Answers.Length];
             for (int i = 0; i < Answers.Length; i++)
             {
                 if (Answers[i].StartsWith(CORRECT_ANSWER_CHAR))
                 {
-                    Answers[i] = Answers[i].Substring(1);
+                    formattedAnswers[i] = Answers[i].Substring(1);
+                    continue;
                 }
+                formattedAnswers[i] = Answers[i];
             }
-            return Answers;
+            return formattedAnswers;
         }
         
     

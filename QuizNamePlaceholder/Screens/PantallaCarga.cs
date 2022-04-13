@@ -17,16 +17,10 @@ namespace QuizNamePlaceholder.Screens
             this.parent = parent;
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
-              progressBar1.Increment(1);
-              label1.Text = progressBar1.Value.ToString() + "%";
+            progressBar1.Increment((int) new Random().Next(1, 5));
+            label1.Text = progressBar1.Value.ToString() + "%";
 
               if (progressBar1.Value == progressBar1.Maximum)
               {
