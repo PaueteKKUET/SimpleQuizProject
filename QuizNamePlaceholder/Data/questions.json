@@ -3,7 +3,7 @@
     "Answers": [
       "5 manzanas",
       "580 plátanos",
-      "@Ninguno, es alérgico",
+      "#Ninguno, es alérgico",
       "Se los come su perro."
     ],
     "Title": "Un tren sale de Madrid a las 15:00 de la tarde y otro sale de Barcelona a 500 km/h. Teniendo en cuenta que la distancia de la Tierra al Sol es de 150.000.000 km ¿Cuántos melocotones se come Juan?"
@@ -13,7 +13,7 @@
       "De que te sirven unas patatas en el refrigerador",
       "400",
       "1",
-      "@No caben ya que los pingüinos se las comerían."
+      "#No caben ya que los pingüinos se las comerían."
     ],
     "Title": "¿Sabiendo la fórmula de la relatividad, cuantas bolsas de patatas fritas caben en un refrigerador que se encuentra en la Antártida?"
   },
@@ -22,7 +22,7 @@
       "Negro",
       "Marrón",
       "Naranja",
-      "@@Señor Stark, no me encuentro bien..."
+      "#Señor Stark, no me encuentro bien..."
     ],
     "Title": "¿De qué color era el caballo blanco de Santiago?"
   },
@@ -30,7 +30,7 @@
     "Answers": [
       "Si",
       "Si",
-      "@No",
+      "#No",
       "Si"
     ],
     "Title": "¿Murcia existe?"
@@ -38,7 +38,7 @@
   {
     "Answers": [
       "Club of Seattle",
-      "@Club del 27",
+      "#Club del 27",
       "Club del 32",
       "Club Nirvana"
     ],
@@ -47,7 +47,7 @@
   {
     "Answers": [
       "Spice Girls",
-      "@Abba",
+      "#Abba",
       "Mecano",
       "Destiny’s Child"
     ],
@@ -56,7 +56,7 @@
   {
     "Answers": [
       "Pau Salanova",
-      "@Manel Navarro",
+      "#Manel Navarro",
       "Manuel Navarro",
       "Pedro Sanchez"
     ],
@@ -66,7 +66,7 @@
     "Answers": [
       "Amazonas",
       "Miño",
-      "@Danubio",
+      "#Danubio",
       "Volga"
     ],
     "Title": "¿Qué río europeo fluye a través de 10 países diferentes?"
@@ -75,14 +75,14 @@
     "Answers": [
       "Desierto del Sahara",
       "El valle de la muerte",
-      "@Desierto de Lut",
+      "#Desierto de Lut",
       "Desierto de Gobi"
     ],
     "Title": "¿Cuál es el desierto más caluroso de la Tierra?"
   },
   {
     "Answers": [
-      "@Fosa de las Marianas",
+      "#Fosa de las Marianas",
       "Fosa de Kermadec",
       "Fosa de las Filipinas",
       "Fosa de Tonga"
@@ -91,7 +91,7 @@
   },
   {
     "Answers": [
-      "@Asia",
+      "#Asia",
       "Oceanía",
       "América",
       "África"
@@ -101,7 +101,7 @@
   {
     "Answers": [
       "San Juan, San Felipe y San Marcos",
-      "@La Pinta, La Niña y Santa Maria",
+      "#La Pinta, La Niña y Santa Maria",
       "La Pinta, San Felipe y Santa Isabel",
       "La Niña, San Felipe y Santa Maria"
     ],
@@ -111,7 +111,7 @@
     "Answers": [
       "1792",
       "1484",
-      "@1492",
+      "#1492",
       "1513"
     ],
     "Title": "¿En qué año se descubrió América?"
@@ -121,14 +121,14 @@
       "100 años",
       "93 años",
       "97 años",
-      "@116 años"
+      "#116 años"
     ],
     "Title": "¿Cuánto duró la guerra de los 100 años?"
   },
   {
     "Answers": [
       "Fernando VII",
-      "@Felipe IV",
+      "#Felipe IV",
       "Carlos V",
       "Alfonso XII"
     ],
@@ -137,7 +137,7 @@
   {
     "Answers": [
       "Zelda",
-      "@Link",
+      "#Link",
       "Donkey Kong",
       "Torrente"
     ],
@@ -148,13 +148,13 @@
       "Matarlo",
       "Noquear",
       "Hacer un Fus Ro Dah",
-      "@Ponerle un cubo en la cabeza"
+      "#Ponerle un cubo en la cabeza"
     ],
     "Title": "¿En el juego The Elder Scrolls Skyrim, cual es la mejor manera para robar a las personas?"
   },
   {
     "Answers": [
-      "@Si",
+      "#Si",
       "No",
       "No existen calaveras en el Halo",
       "Todas son incorrectas"
@@ -166,14 +166,14 @@
       "Mudkip, Torchick y Treecko",
       "Squirtle, Charmander y Bulbasaur",
       "Totodile, Cyndaquil y Chikorita",
-      "@Piplup, Chimchar y Turtwig"
+      "#Piplup, Chimchar y Turtwig"
     ],
     "Title": "En Pokémon Diamante, ¿Cuáles son los starters?"
   },
   {
     "Answers": [
       "Ashe",
-      "@Sova",
+      "#Sova",
       "Miss Fortune",
       "Maestro Yi"
     ],
@@ -182,9 +182,9 @@
   {
     "Answers": [
       "No",
-      "@Si",
+      "#Si",
       "Imposible",
-      "@Si x2"
+      "#Si x2"
     ],
     "Title": "¿Se puede instalar Windows 10/11 en móvil sin emuladores?"
   },
@@ -192,14 +192,14 @@
     "Answers": [
       "2 GB",
       "10 GB",
-      "@15 GB",
+      "#15 GB",
       "5 GB"
     ],
     "Title": "¿Cuál es el almacenamiento gratuito máximo de Google Drive?"
   },
   {
     "Answers": [
-      "@Falso",
+      "#Falso",
       "Verdadero",
       "Verdedero",
       "Fals0"
@@ -209,7 +209,7 @@
   {
     "Answers": [
       "Verdadero",
-      "@Falso",
+      "#Falso",
       "Fаlso",
       "Verdaдero"
     ],
@@ -219,7 +219,7 @@
     "Answers": [
       "Zeus",
       "Hades",
-      "@Jupiter",
+      "#Jupiter",
       "Eros"
     ],
     "Title": "Cual de estos NO es un dios griego"
@@ -228,7 +228,7 @@
     "Answers": [
       "Átomo",
       "Particula",
-      "@Célula",
+      "#Célula",
       "Tejido"
     ],
     "Title": "¿Cuál es el componente mínimo que forma a los seres humanos?"
@@ -237,14 +237,14 @@
     "Answers": [
       "Thomas Edison",
       "Albert Einstein",
-      "@Nikola Tesla",
+      "#Nikola Tesla",
       "Mario Espasa"
     ],
     "Title": "¿Quién inventó el control remoto?"
   },
   {
     "Answers": [
-      "@Creta",
+      "#Creta",
       "Esparta",
       "Atenas",
       "Argos"
@@ -254,7 +254,7 @@
   {
     "Answers": [
       "10",
-      "@12",
+      "#12",
       "11",
       "7"
     ],
@@ -263,7 +263,7 @@
   {
     "Answers": [
       "Frozen",
-      "@Blancanieves",
+      "#Blancanieves",
       "Cenicienta",
       "La bella durmiente"
     ],
@@ -271,7 +271,7 @@
   },
   {
     "Answers": [
-      "@Mito de la caverna",
+      "#Mito de la caverna",
       "Las tres partes del alma",
       "La justicia es equilibrio",
       "Los sentidos no reflejan la realidad ni permiten conocerla"
@@ -281,7 +281,7 @@
   {
     "Answers": [
       "Cars",
-      "@Toy Story",
+      "#Toy Story",
       "Monster Inc.",
       "Wall-E"
     ],
