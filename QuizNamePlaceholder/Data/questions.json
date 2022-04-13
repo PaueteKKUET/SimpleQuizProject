@@ -286,5 +286,203 @@
       "Wall-E"
     ],
     "Title": "¿Cuál de estas películas salió primero?"
+  },
+  {
+    "Answers": [
+      "#1892",
+      "1907",
+      "1908",
+      "2025"
+    ],
+    "Title": "¿En qué año se fundó Coca Cola?"
+  },
+  {
+    "Answers": [
+      "#16.500 millones",
+      "42",
+      "16 millones",
+      "-4"
+    ],
+    "Title": "¿Cuántos años tiene el universo, aproximadamente?"
+  },
+  {
+    "Answers": [
+      "Hiperesfera",
+      "Botella de Klein",
+      "Duocilindro",
+      "#Tetraedro"
+    ],
+    "Title": "¿Cuál de los siguientes no es una figura tetradimensional?"
+  },
+  {
+    "Answers": [
+      "#312",
+      "4'233333...",
+      "0",
+      "indefinido"
+    ],
+    "Title": "¿Cuál es el logaritmo en base 312 de 104x3?"
+  },
+  {
+    "Answers": [
+      "Las tres mellizas",
+      "Berni",
+      "#Código Lyoko",
+      "Jelly Jamm"
+    ],
+    "Title": "¿Cuál de los siguientes series de dibujos animados no tiene origen español?"
+  },
+  {
+    "Answers": [
+      "2003",
+      "0",
+      "-1",
+      "1 a.C"
+    ],
+    "Title": "¿En qué año se dice que nació Jesucristo?"
+  },
+  {
+    "Answers": [
+      "8 porel",
+      "culo",
+      "telaen",
+      "tocho"
+    ],
+    "Title": "¿Cuántos protones tiene un átomo de oxígeno?"
+  },
+  {
+    "Answers": [
+      "#0",
+      "1,32e9",
+      "98",
+      "-4"
+    ],
+    "Title": "Dada la expresión (cos(27) * tan(43))x = 0, indica el posible valor de X"
+  },
+  {
+    "Answers": [
+      "#María Cristina",
+      "Maria José",
+      "María María",
+      "Ven acá corriendo que el chocolatillo te lo están comiendo"
+    ],
+    "Title": "Fue tutora de María Isabel durante su reinado en la menoría de edad"
+  },
+  {
+    "Answers": [
+      "#...en tu balcón sus nidos a colgar",
+      "...a comerse las pipas de las vecinas",
+      "...en el alféizar sus nidos a colgar",
+      "...esas, esas no volverán"
+    ],
+    "Title": "Volverán las ocuras golondrinas..."
+  },
+  {
+    "Answers": [
+      "#323 bloques",
+      "63 bloques",
+      "255 bloques",
+      "2^15 - 1 bloques"
+    ],
+    "Title": "¿Cuál es el límite de altura en un mundo normal de Minecraft?"
+  },
+  {
+    "Answers": [
+      "Batracio",
+      "Gilipuertas",
+      "#Mascachapas",
+      "Animal de bellota"
+    ],
+    "Title": "¿Cuál de las siguientes palabras no es un insulto reconocido en la RAE?"
+  },
+  {
+    "Answers": [
+      "El colectivo LGTBI+",
+      "El colectivo negro",
+      "Todos los colectivos tienen reconocidos sus derechos humanos, puesto que España los ha firmado como miembro de la ONU",
+      "#Los franceses"
+    ],
+    "Title": "¿Cuál de los siguientes colectivos no disponen de derechos humanos en territorio español?"
+  },
+  {
+    "Answers": [
+      "#...un camión",
+      "#...un avión",
+      "#...una fundación",
+      "#...un cañón"
+    ],
+    "Title": "Yo, para ser feliz, quiero..."
+  },
+  {
+    "Answers": [
+      "#...hacen un mayo florido y hermoso",
+      "...hacen un mayo hermoso y florido",
+      "...le dan de comer a papá oso",
+      "...dan ganas de tirarse a un poso"
+    ],
+    "Title": "Dice el dicho que marzo ventoso y abril lluvioso..."
+  },
+  {
+    "Answers": [
+      "#piribiri piribiri piribiri piribiri piribí",
+      "piribiri piribiri piribí",
+      "piribiri piribí",
+      "piribiri"
+    ],
+    "Title": "Y ERA UN DOMINGO A LA TARDE FUI A LOS COCHES DE CHOQUE"
+  },
+  {
+    "Answers": [
+      "El bien dotado",
+      "#El felón",
+      "#El deseado",
+      "El monstruoso"
+    ],
+    "Title": "¿Con qué mote se conoce a Fernando VII?"
+  },
+  {
+    "Answers": [
+      "Toma",
+      "Para tí",
+      "Suma una más",
+      "#Es esta, dale, vamos, lo estás deseando"
+    ],
+    "Title": "Te has ganado una pregunta gratis"
+  },
+  {
+    "Answers": [
+      "#OWO",
+      "UwUn't",
+      "unu",
+      "u.u"
+    ],
+    "Title": "¿UwU?"
+  },
+  {
+    "Answers": [
+      "#Fruta fría frigorizada",
+      "Fractal Fiel a Francésmuertoabonopamihuerto",
+      "Fractal Fructífero Fresco",
+      "Feo pero Feo Feo con ganas"
+    ],
+    "Title": "Según la  famosa serie de animación Fanboy y Chumchum, ¿a qué se refieren las sigles FFF?"
+  },
+  {
+    "Answers": [
+      "#Sí",
+      "#Sí",
+      "#!(No)",
+      "#Sí"
+    ],
+    "Title": "Según la ONU, si un ruso no bebe vodka ¿se le puede retirar la nacionalidad rusa?"
+  },
+  {
+    "Answers": [
+      "a & b == 10011010",
+      "#a ^ b == 10011010",
+      "a | b == 10011010",
+      "a << == 10011010"
+    ],
+    "Title": "Teniendo en cuenta que (a = 0b00011010) y (b = 0b01110111), cuál de las siguientes operaciones es correcta?"
   }
 ]
