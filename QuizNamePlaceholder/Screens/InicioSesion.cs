@@ -25,9 +25,9 @@ namespace QuizNamePlaceholder.Screens
 
         private void btn_jugar_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(lbl_usuario.Text))
+            if (String.IsNullOrEmpty(txt_usuario.Text))
             {
-                MessageBox.Show("Alerta", "Debes introducir un nombre de usuario para jugar");
+                MessageBox.Show("Debes introducir un nombre de usuario para jugar","Alerta");
             }
             else {
                 PantallaCarga pc = new PantallaCarga(this);
