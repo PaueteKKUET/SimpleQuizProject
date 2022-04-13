@@ -103,6 +103,9 @@ namespace QuizNamePlaceholder.Screens
             DeclareAnswer(3);
         }
 
+        private static System.Drawing.Color CORRECT = System.Drawing.Color.FromArgb(113, 213, 86);
+        private static System.Drawing.Color WRONG = System.Drawing.Color.FromArgb(234, 77, 90);   
+
         private void DeclareAnswer(int n)
         {
             if (isAnswered)
@@ -115,33 +118,40 @@ namespace QuizNamePlaceholder.Screens
             if (currentQuestion.IsCorrectAnswer(answerButtons[n].Text))
             {
                 this.aciertos++;
-                answerButtons[n].BackColor = System.Drawing.Color.Green;
+                answerButtons[n].BackColor = CORRECT;
 
-                this.BackColor = System.Drawing.Color.Green;
+                this.BackColor = CORRECT;
             } else
             {
                 this.fallos++;
-                answerButtons[n].BackColor = System.Drawing.Color.Red;
+                answerButtons[n].BackColor = WRONG;
                 foreach (Button but in answerButtons)
                 {
                     if (currentQuestion.IsCorrectAnswer(but.Text)) {
-                        but.BackColor = System.Drawing.Color.Green;
+                        but.BackColor = CORRECT;
                     }
                 }
 
-                this.BackColor = System.Drawing.Color.Red;
+                this.BackColor = WRONG;
                 Shake();
             }
 
 
         }
 
+        private static System.Drawing.Color[] BUTTON_DEFAULT_COLORS = new System.Drawing.Color[] {
+            System.Drawing.Color.FromArgb(249, 187, 120),
+            System.Drawing.Color.FromArgb(239, 195, 85),
+            System.Drawing.Color.FromArgb(246, 205, 115),
+            System.Drawing.Color.FromArgb(237, 133, 92)
+        };
+
         private void ResetColors()
         {
             this.BackColor = System.Drawing.Color.FromArgb(250, 243, 178);
-            foreach (Button but in answerButtons)
+            for (int i = 0; i < answerButtons.Length; i++)
             {
-                but.BackColor = System.Drawing.Color.FromArgb(250, 243, 178);
+                answerButtons[i].BackColor = BUTTON_DEFAULT_COLORS[i];
             }
         }
 

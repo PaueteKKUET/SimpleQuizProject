@@ -51,8 +51,8 @@ namespace QuizNamePlaceholder.Screens
             this.questionLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.questionLabel.AutoEllipsis = true;
             this.questionLabel.AutoSize = true;
-            this.questionLabel.Location = new System.Drawing.Point(3, 26);
-            this.questionLabel.MaximumSize = new System.Drawing.Size(320, 45);
+            this.questionLabel.Location = new System.Drawing.Point(3, 3);
+            this.questionLabel.MaximumSize = new System.Drawing.Size(320, 75);
             this.questionLabel.Name = "questionLabel";
             this.questionLabel.Size = new System.Drawing.Size(32, 15);
             this.questionLabel.TabIndex = 1;
