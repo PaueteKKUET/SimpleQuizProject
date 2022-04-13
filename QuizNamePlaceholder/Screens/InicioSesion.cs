@@ -13,8 +13,11 @@ namespace QuizNamePlaceholder.Screens
     {
         SoundPlayer s = new SoundPlayer();
 
-        public InicioSesion()
+        Form parent;
+
+        public InicioSesion(Form parent)
         {
+            this.parent = parent;
             s.SoundLocation = @"Data\MusicaFinal\intro.wav";
             s.PlayLooping();
             InitializeComponent();
@@ -27,26 +30,16 @@ namespace QuizNamePlaceholder.Screens
                 MessageBox.Show("Alerta", "Debes introducir un nombre de usuario para jugar");
             }
             else {
-                PantallaCarga pc = new PantallaCarga();
+                PantallaCarga pc = new PantallaCarga(this);
                 s.Stop();
                 this.Hide();
                 pc.Show();
             }
         }
 
-        private void txt_usuario_TextChanged(object sender, EventArgs e)
+        private void TitleScreen_OnFormClosed(object sender, EventArgs e)
         {
-
-        }
-
-        private void lbl_usuario_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
+            parent.Close();
         }
     }
 }

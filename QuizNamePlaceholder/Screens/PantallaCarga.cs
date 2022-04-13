@@ -10,8 +10,11 @@ namespace QuizNamePlaceholder.Screens
 {
     public partial class PantallaCarga : Form
     {
-        public PantallaCarga()
+        Form parent;
+        
+        public PantallaCarga(Form parent)
         {
+            this.parent = parent;
             InitializeComponent();
         }
 
@@ -29,9 +32,14 @@ namespace QuizNamePlaceholder.Screens
               {
                   timer1.Stop();
                   this.Hide();
-                  TitleScreen ts = new TitleScreen();
+                  TitleScreen ts = new TitleScreen(this);
                   ts.ShowDialog();
               }
+        }
+
+        private void TitleScreen_OnFormClosed(object sender, EventArgs e)
+        {
+            parent.Close();
         }
     }
 }

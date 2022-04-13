@@ -74,6 +74,7 @@ namespace QuizNamePlaceholder.Screens
             this.Text = "PantallaCarga";
             this.ResumeLayout(false);
             this.PerformLayout();
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TitleScreen_OnFormClosed);
 
         }
 

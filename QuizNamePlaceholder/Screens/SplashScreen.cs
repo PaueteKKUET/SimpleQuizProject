@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 namespace QuizNamePlaceholder.Screens
@@ -17,7 +12,7 @@ namespace QuizNamePlaceholder.Screens
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            InicioSesion ins = new InicioSesion();
+            InicioSesion ins = new InicioSesion(this);
             this.Hide();
             ins.Show();
             timer1.Enabled = false;

@@ -59,7 +59,6 @@ namespace QuizNamePlaceholder.Screens
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(447, 277);
             this.panel1.TabIndex = 1;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // txt_usuario
             // 
@@ -68,7 +67,6 @@ namespace QuizNamePlaceholder.Screens
             this.txt_usuario.Name = "txt_usuario";
             this.txt_usuario.Size = new System.Drawing.Size(190, 23);
             this.txt_usuario.TabIndex = 3;
-            this.txt_usuario.TextChanged += new System.EventHandler(this.txt_usuario_TextChanged);
             // 
             // lbl_usuario
             // 
@@ -80,7 +78,6 @@ namespace QuizNamePlaceholder.Screens
             this.lbl_usuario.Size = new System.Drawing.Size(195, 22);
             this.lbl_usuario.TabIndex = 1;
             this.lbl_usuario.Text = "Nombre de usuario:";
-            this.lbl_usuario.Click += new System.EventHandler(this.lbl_usuario_Click);
             // 
             // InicioSesion
             // 
@@ -94,6 +91,7 @@ namespace QuizNamePlaceholder.Screens
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TitleScreen_OnFormClosed);
 
         }
 

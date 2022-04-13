@@ -16,10 +16,11 @@ namespace QuizNamePlaceholder.Screens
         private const string questionFilePath = QuestEngine.DEFAULT_PATH;
 
         SoundPlayer s = new SoundPlayer();
-
+        Form parent;
         private QuestEngine questEngine;
-        public TitleScreen()
+        public TitleScreen(Form parent)
         {
+            this.parent = parent;
             s.SoundLocation = @"Data\MusicaFinal\Juego.wav";
             s.PlayLooping();
             InitializeComponent();
@@ -37,6 +38,11 @@ namespace QuizNamePlaceholder.Screens
             {
                 testLabel.Text = "No hay más preguntas";
             }
+        }
+
+        private void TitleScreen_OnFormClosed(object sender, EventArgs e)
+        {
+            parent.Close();
         }
     }
 }
