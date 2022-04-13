@@ -14,5 +14,13 @@ namespace QuizNamePlaceholder.Screens
         {
             InitializeComponent();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            InicioSesion ins = new InicioSesion();
+            this.Hide();
+            ins.Show();
+            timer1.Enabled = false;
+        }
     }
 }

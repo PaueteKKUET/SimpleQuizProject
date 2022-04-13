@@ -29,7 +29,9 @@ namespace QuizNamePlaceholder.Screens
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // panel1
@@ -39,6 +41,12 @@ namespace QuizNamePlaceholder.Screens
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(541, 317);
             this.panel1.TabIndex = 0;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 800;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // SplashScreen
             // 
@@ -56,5 +64,6 @@ namespace QuizNamePlaceholder.Screens
         #endregion
 
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

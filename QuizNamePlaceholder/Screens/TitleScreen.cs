@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Media;
 using static QuizNamePlaceholder.utils.QuestEngine;
 
 namespace QuizNamePlaceholder.Screens
@@ -14,9 +15,13 @@ namespace QuizNamePlaceholder.Screens
     {
         private const string questionFilePath = QuestEngine.DEFAULT_PATH;
 
+        SoundPlayer s = new SoundPlayer();
+
         private QuestEngine questEngine;
         public TitleScreen()
         {
+            s.SoundLocation = @"Data\MusicaFinal\Juego.wav";
+            s.PlayLooping();
             InitializeComponent();
             //creates a new QuestEngine using a random seed and the question file path
             questEngine = new QuestEngine(new Random().Next(), questionFilePath);

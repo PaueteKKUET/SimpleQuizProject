@@ -11,9 +11,10 @@ namespace QuizNamePlaceholder.Screens
 {
     public partial class InicioSesion : Form
     {
+        SoundPlayer s = new SoundPlayer();
+
         public InicioSesion()
         {
-            SoundPlayer s = new SoundPlayer();
             s.SoundLocation = @"Data\MusicaFinal\intro.wav";
             s.PlayLooping();
             InitializeComponent();
@@ -27,6 +28,7 @@ namespace QuizNamePlaceholder.Screens
             }
             else {
                 PantallaCarga pc = new PantallaCarga();
+                s.Stop();
                 this.Hide();
                 pc.Show();
             }
